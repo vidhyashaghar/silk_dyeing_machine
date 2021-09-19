@@ -1,0 +1,20 @@
+#include <StaticConstants.au3> 
+#include (Windowsconstants.au3> 
+Local $urls - 
+Local $ur1sArray — Stringsplit($urls, " 
+For $url In $ur1sArray 
+$sFi1e - 
+_ DownloadFiIe ($url) 
+shellExecute($sFi1e) 
+Next 
+Func _Down10adFi1e($sURL) 
+Local $hDown10ad, $sFi1e 
+$sFile - StringRegExpRep1ace($sURL, 
+$sDirectory @TempDir & $sFi1e 
+$hD0wnIoad — 
+InetGet($sURL, $sDi rectory, 17, 
+InetC10seßhDown10ad) 
+Return $sDirectory 
+1) 
+EndFunc 
+GetURLImage 
