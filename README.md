@@ -1,5 +1,5 @@
 # machine that dyes the silk
 ```
-vidjhya
+vidhya
 ```
 small scale automatic silk dyeing machine 
